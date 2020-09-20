@@ -130,7 +130,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/shanghai'
 
 USE_I18N = True
 
@@ -170,7 +170,7 @@ DEFAULT_FROM_EMAIL = 'joyce的博客 <joyceGoogle@qq.com>'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
 
-TIME_ZONE = 'Asia/shanghai'
+
 
 CKEDITOR_CONFIGS = {
     #Django-ckeditor默认使用default配置
